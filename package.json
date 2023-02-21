@@ -1,0 +1,34 @@
+{
+  "name": "b",
+  "version": "0.0.3",
+  "description": "bbbbb",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.xunlei.cn/jingchao/b.git"
+  },
+  "keywords": [
+    "b"
+  ],
+  "author": "https://gitlab.xunlei.cn/jingchao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2"
+  },
+  "dependencies": {
+    "login": "^0.8.0",
+    "react-scripts": "^5.0.1",
+    "user": "^0.0.0"
+  }
+}
